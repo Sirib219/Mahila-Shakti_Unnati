@@ -133,6 +133,15 @@
       background: #fff;
     }
 
+    video {
+      width: 100%;
+      max-width: 760px;
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #000;
+    }
+
     code {
       background: #eef2f7;
       border: 1px solid #d7dee8;
@@ -213,7 +222,10 @@
   <section id="demo-video">
     <div class="wrap">
       <h2>Demo Video</h2>
-      <p>After recording the app demo video, upload it to this repository or to Google Drive/YouTube and add the public link here.</p>
+      <video controls poster="emulator_screen.png">
+        <source src="demo_video.mp4" type="video/mp4">
+      </video>
+      <p>After recording the app demo video, add the file to the repository root with this exact name: <code>demo_video.mp4</code>.</p>
       <p><strong>Suggested video title:</strong> Mahila-Shakti Unnati Android App Demo</p>
     </div>
   </section>

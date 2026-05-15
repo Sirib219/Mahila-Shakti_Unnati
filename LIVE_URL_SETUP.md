@@ -47,6 +47,24 @@ https://sirib219.github.io/Mahila-Shakti_Unnati/
 
 The Android app itself does not run in the browser. This live URL is a public demo page for the APK project, showing the project description, features, screenshots, APK download, GitHub link, and technologies used.
 
+## Add Your Demo Video
+
+After you create your own demo video, save it in the project root with this exact name:
+
+```text
+demo_video.mp4
+```
+
+Then run:
+
+```powershell
+git add demo_video.mp4 index.html
+git commit -m "add app demo video"
+git push origin master
+```
+
+The video will appear on the live page after GitHub Pages redeploys.
+
 The GitHub Repository button inside `index.html` has already been updated to:
 
 ```text
