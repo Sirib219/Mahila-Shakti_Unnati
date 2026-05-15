@@ -1,0 +1,29 @@
+# Gradle and Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+app/release/
+
+# IDE files
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# Android generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated report render output
+report_render_updated/
+update_report_readiness.py
