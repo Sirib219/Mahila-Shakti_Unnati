@@ -148,3 +148,5 @@ Reports Screen -> CSV Export -> FileProvider -> Share or Save Report
 - Biometric lock for privacy
 - Multilingual labels for first-time digital finance users
 - More analytics charts for savings ratio, overdue loans, and monthly trends
+
+- link for Installink apk:  https://drive.google.com/file/d/14yfO8HraahF81I6nCVM5-lHfTp2hsNvY/view?usp=drive_link
